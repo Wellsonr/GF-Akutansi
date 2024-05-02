@@ -1,0 +1,3964 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+inventory
+</name>
+</assembly>
+<members>
+<member name="T:inventory.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources._1_UpStraight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources._3_RightDown">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources._3_RightStraight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources._3_Rightup">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources._5_DownLeft">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources._5_DownRight2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources._5_DownStraught">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources._7_LeftStraight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources._7_Leftup">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources._8_Upper_Left2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Approve">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Assemble_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Attendance_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Balance_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.bell2021">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Bill_of_Material_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.boxes">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Bruto_Profit_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.business_card_of_a_man_with_contact_info">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.cancelnew">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Cash_Bank_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Cash_Flow_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Cash_Invoice">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Cash_Invoice_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Ccy_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Change_Customer24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Change_Therapist24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Chart_Of_Account_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Check_Mutasi_2020s">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.clear">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.coins__24_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Company_Profile_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Contract_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Cost_Of_Goods_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.createnew">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Credit_Note">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Customer_Activity_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Customer_List_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Daily_Rate_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Dashboard_20201">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Dashboard_20202">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Dashboard_20203">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Data_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Debit_Note">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.delete__24_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Deliver_Order">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Deliver_Order_Return">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Department_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Detail_Stock_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Disassemble_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Disc_Level_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.dollar2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Down_Payment">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.download1_20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.draft">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Driver_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.editnew">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Employee_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Expese_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.failed">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.failednotif2021">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Financial_Process_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.font_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.funding">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Funding_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.General_Ledger_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.generate_barang">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Harvest_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Holiday_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Import_POS_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Internal_Inquiry">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Internal_Move_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Inventory_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Inventory_20201">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Inventory_Transfer_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Invoice_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Invoice_DO_Return">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Invoice_Paid_Off">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Invoice_Paid_Off_2020rev">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Invoice_Paid_Off_Purchase">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Invoice_Paid_Offpurchase_2020_rev">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Item_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Item_Detail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Job_Order_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Journal_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Leave_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Leave_Approve_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Ledger_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.lending">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Lending_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Lending_2020s">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.loading_star">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Loan_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Loan_Return_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.lock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.login2021">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.logo_homan__no_bg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.logohomanplain">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.mail_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Massage_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Min_Stock_Session_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Monthly_Rate_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Mutation_in_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Mutation_out_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Mutation_out_Return_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Nasabah_2020s">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.New_Fixed_Asset_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.New_Fixed_Asset_List_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.No_Charge_lot_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.No_image_found">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.noaccess2021">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.numpad">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Other_Income_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Overtime_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.paid_rectangle_stamp_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.password_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Payroll_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Permission_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.POS_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.POS_20201">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Pos_payment">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.POSvoid_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Price_Level_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Print_Selected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.production">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Production_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Profit___Lost_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Project_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.projecttt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Purchase_Invoice_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Purchase_Order_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.QuotationProject2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Realitation_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Receive_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Receive_Return">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Reconsillation_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.refresh2_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Report_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Repost_Payable_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Repost_Receiveable_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Request_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Return_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Return_Cash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Return_Deposite">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.revise">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.revise1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.RFQ_Supplier">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Sales_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Sales_Cash_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Sales_Credit_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Sales_Invoice_New">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Sales_Order">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Salesman_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.savenew">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Shift_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Shipping_Point_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.sound_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Statement_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.stock__24_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Stock_Deposit_In_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Stock_Deposit_Out_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Stock_Opname_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Sub_Ledger__Payable_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Sub_Ledger__Receiveable_20201">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.success">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Suplier_List_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Supplier_Activity_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Supplier_History">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Supplier_History_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.tambahpaket">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Unbalance_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Unlock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.User_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Vehicle_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.View_PO_Detail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.view_request">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Warehouse_2020">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.My.Resources.Resources.Wishlist">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:inventory.dsPaymentReport">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsPaymentReport.PaymentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsPaymentReport.PaymentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsPaymentReport.PaymentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsquotationbaru">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsquotationbaru.quotationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsquotationbaru.quotationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsquotationbaru.quotationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsnasabah">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsnasabah.dtnasabahDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsnasabah.dtnasabahRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsnasabah.dtnasabahRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspayroll">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspayroll.payrollDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspayroll.payrollRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspayroll.payrollRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsRekening">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsRekening.dtRekeningDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsRekening.dtRekeningRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsRekening.dtRekeningRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsSimpanan">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsSimpanan.dtSimpananDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsSimpanan.dtSimpananRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsSimpanan.dtSimpananRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.frmjenisrekening">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:inventory.frmjenisrekening.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:inventory.frmjenisrekening.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:inventory.dsFormulaNew">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsFormulaNew.FormulaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsFormulaNew.FormulaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsFormulaNew.FormulaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsDeposito">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsDeposito.dtdepositoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsDeposito.dtdepositoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsDeposito.dtdepositoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsPinjamanBank">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsPinjamanBank.Pinjaman_BankDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsPinjamanBank.Pinjaman_BankRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsPinjamanBank.Pinjaman_BankRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsPenyusutanTrans">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsPenyusutanTrans.PenyusutanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsPenyusutanTrans.PenyusutanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsPenyusutanTrans.PenyusutanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsLaporanDeposit">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsLaporanDeposit.DepositDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsLaporanDeposit.DepositRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsLaporanDeposit.DepositRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dslaporanhutang">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dslaporanhutang.laporanhutangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dslaporanhutang.laporanhutangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dslaporanhutang.laporanhutangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsDO">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsDO.DODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsDO.DORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsDO.DORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsbiaya">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsbiaya.biayaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsbiaya.biayaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsbiaya.biayaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsabsensigym">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsabsensigym.dsabensigymDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsabsensigym.dsabensigymRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsabsensigym.dsabensigymRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsbarangform1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsbarangform1.barangform1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsbarangform1.barangform1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsbarangform1.barangform1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dscustomer">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dscustomer.dscustomerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dscustomer.dscustomerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dscustomer.dscustomerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsgantiimei">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsgantiimei.dsgantiimeiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsgantiimei.dsgantiimeiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsgantiimei.dsgantiimeiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dshak">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dshak.dshakDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dshak.dshakRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dshak.dshakRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsjurnal">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsjurnal.headerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsjurnal.detailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsjurnal.headerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsjurnal.detailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsjurnal.headerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsjurnal.detailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dskreditbayar">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dskreditbayar.dskreditbayarDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dskreditbayar.dskreditbayarRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dskreditbayar.dskreditbayarRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dslaporankreditbayar">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dslaporankreditbayar.dslaporankreditbayarDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dslaporankreditbayar.dslaporankreditbayarRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dslaporankreditbayar.dslaporankreditbayarRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsoutstandingwo">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsoutstandingwo.outstandingwoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsoutstandingwo.outstandingwoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsoutstandingwo.outstandingwoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspaymentvouchergl">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspaymentvouchergl.paymentvoucherglDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspaymentvouchergl.paymentvoucherglRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspaymentvouchergl.paymentvoucherglRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspemakaianpaket">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspemakaianpaket.dspemakaianpaketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspemakaianpaket.dspemakaianpaketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspemakaianpaket.dspemakaianpaketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsrekaporderan">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsrekaporderan.dsrekaporderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsrekaporderan.dsrekaporderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsrekaporderan.dsrekaporderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dstransaksigudang">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dstransaksigudang.dstransaksigudangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dstransaksigudang.dstransaksigudangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dstransaksigudang.dstransaksigudangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsfg">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsfg.dsfgDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsfg.dsfgRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsfg.dsfgRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dshistorypenjualan">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dshistorypenjualan.dshistorypenjualanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dshistorypenjualan.dshistorypenjualanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dshistorypenjualan.dshistorypenjualanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspenjualangrosirdetail">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspenjualangrosirdetail.dspenjualangrosirdetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspenjualangrosirdetail.dspenjualangrosirdetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspenjualangrosirdetail.dspenjualangrosirdetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspenjualangrosironline2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspenjualangrosironline2.detailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspenjualangrosironline2.detailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspenjualangrosironline2.detailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dshistorypaket">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dshistorypaket.dshistorypaketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dshistorypaket.dshistorypaketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dshistorypaket.dshistorypaketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dslaporanpemakaianpaket">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dslaporanpemakaianpaket.dspemakaianpaketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dslaporanpemakaianpaket.dspemakaianpaketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dslaporanpemakaianpaket.dspemakaianpaketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dslaporanpenjualanpaket">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dslaporanpenjualanpaket.dslaporanpenjualanpaketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dslaporanpenjualanpaket.dslaporanpenjualanpaketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dslaporanpenjualanpaket.dslaporanpenjualanpaketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspenjualanpaket">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspenjualanpaket.dsjualpaketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspenjualanpaket.dsjualpaketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspenjualanpaket.dsjualpaketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dssisapaket">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dssisapaket.dssisapaketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dssisapaket.dssisapaketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dssisapaket.dssisapaketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsupgradepaket">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsupgradepaket.dsupgradepaketDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsupgradepaket.dsupgradepaketRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsupgradepaket.dsupgradepaketRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dskeluarbarang">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dskeluarbarang.keluarbarangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dskeluarbarang.keluarbarangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dskeluarbarang.keluarbarangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dskredit">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dskredit.dskreditDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dskredit.dskreditRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dskredit.dskreditRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dskreditlap">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dskreditlap.dskreditlapDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dskreditlap.dskreditlapRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dskreditlap.dskreditlapRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspenjualangrosir">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspenjualangrosir.dspenjualangrosirDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspenjualangrosir.dspenjualangrosirRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspenjualangrosir.dspenjualangrosirRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsinvoicediskon">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicediskon.invoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicediskon.remarkDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicediskon.diskonDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicediskon.invoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicediskon.remarkRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicediskon.diskonRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicediskon.invoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsinvoicediskon.remarkRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsinvoicediskon.diskonRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsinvoicenondiskon">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicenondiskon.invoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicenondiskon.remarkDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicenondiskon.diskonDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicenondiskon.invoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicenondiskon.remarkRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicenondiskon.diskonRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicenondiskon.invoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsinvoicenondiskon.remarkRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsinvoicenondiskon.diskonRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsposfooter">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsposfooter.posfooterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsposfooter.posfooterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsposfooter.posfooterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsrefund">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsrefund.dsrefundDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsrefund.dsrefundRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsrefund.dsrefundRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsrequestpo">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsrequestpo.DsrequestpoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsrequestpo.DsrequestpoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsrequestpo.DsrequestpoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsSalesReportbyBrand">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsSalesReportbyBrand.dsSalesReportbyBrandDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsSalesReportbyBrand.dsSalesReportbyBrandRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsSalesReportbyBrand.dsSalesReportbyBrandRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsSalesReportbyCust">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsSalesReportbyCust.dsSalesReportbyCustDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsSalesReportbyCust.dsSalesReportbyCustRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsSalesReportbyCust.dsSalesReportbyCustRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsSalesReportbyDO">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsSalesReportbyDO.dsSalesReportbyDODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsSalesReportbyDO.dsSalesReportbyDORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsSalesReportbyDO.dsSalesReportbyDORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsSalesReportbySalesman">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsSalesReportbySalesman.dsSalesReportbySalesmanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsSalesReportbySalesman.dsSalesReportbySalesmanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsSalesReportbySalesman.dsSalesReportbySalesmanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsSObyBrand">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsSObyBrand.dsSObyBrandDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsSObyBrand.dsSObyBrandRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsSObyBrand.dsSObyBrandRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsproduksi">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsproduksi.dsproduksiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsproduksi.dsproduksiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsproduksi.dsproduksiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsproject">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsproject.projectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsproject.projectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsproject.projectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsRepostCB">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsRepostCB.RepostCBDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsRepostCB.RepostCBRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsRepostCB.RepostCBRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsGroupOrder">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsGroupOrder.dtGroupOrderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsGroupOrder.dtGroupOrderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsGroupOrder.dtGroupOrderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsBill">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsBill.BillDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsBill.BillRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsBill.BillRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsStatement">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsStatement.StatementDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsStatement.StatementRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsStatement.StatementRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsdp">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsdp.DPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsdp.DPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsdp.DPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsPelunasanBank">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsPelunasanBank.PelunasanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsPelunasanBank.PelunasanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsPelunasanBank.PelunasanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsOtherIncome">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsOtherIncome.OtherIncomeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsOtherIncome.OtherIncomeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsOtherIncome.OtherIncomeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dscashbonkaryawan">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dscashbonkaryawan.CashKaryawanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dscashbonkaryawan.TunjanganDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dscashbonkaryawan.CashKaryawanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dscashbonkaryawan.TunjanganRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dscashbonkaryawan.CashKaryawanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dscashbonkaryawan.TunjanganRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsrepostap">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsrepostap.RepostAPDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsrepostap.MultiPaymentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsrepostap.RepostAPRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsrepostap.MultiPaymentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsrepostap.RepostAPRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsrepostap.MultiPaymentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsMainGroup">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsMainGroup.MainGroupDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsMainGroup.MainGroupRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsMainGroup.MainGroupRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsNamaBarang">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsNamaBarang.NamaBarangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsNamaBarang.NamaBarangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsNamaBarang.NamaBarangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dscashbank">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dscashbank.CashBankDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dscashbank.CashBankRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dscashbank.CashBankRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspenjualanharianmb">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspenjualanharianmb.dspenjualanharianmbDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspenjualanharianmb.dspenjualanharianmbRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspenjualanharianmb.dspenjualanharianmbRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsbayarbiaya">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsbayarbiaya.dsbayarbiayaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsbayarbiaya.dsbayarbiayaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsbayarbiaya.dsbayarbiayaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsformula">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsformula.dsformulaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsformula.dsformulaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsformula.dsformulaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dslaporangl">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dslaporangl.dslaporanglDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dslaporangl.dslaporanglRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dslaporangl.dslaporanglRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspl">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspl.tplDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspl.tplRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspl.tplRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dssum">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dssum.tsumDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dssum.tsumRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dssum.tsumRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dssupplier">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dssupplier.dssupplierDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dssupplier.dssupplierRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dssupplier.dssupplierRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dshutang">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dshutang.thutangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dshutang.thutangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dshutang.thutangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspenjualankotor">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspenjualankotor.dspenjualankotorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspenjualankotor.dspenjualankotorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspenjualankotor.dspenjualankotorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsjual">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsjual.dsjualDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsjual.dsjualRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsjual.dsjualRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspenyusutan">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspenyusutan.dspenyusutanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspenyusutan.dspenyusutanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspenyusutan.dspenyusutanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspembelian">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspembelian.DspembelianDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspembelian.DspembelianRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspembelian.DspembelianRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspo">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspo.poDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspo.poRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspo.poRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsedit">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsedit.dseditDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsedit.dseditRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsedit.dseditRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspembelian1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspembelian1.dspembelian1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspembelian1.dspembelian1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspembelian1.dspembelian1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspersediandetail">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspersediandetail.dsperdediaandetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspersediandetail.dsperdediaandetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspersediandetail.dsperdediaandetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsstokcard">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsstokcard.dsstokcardDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsstokcard.dsstokcardRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsstokcard.dsstokcardRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dstopitem">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dstopitem.dstopitemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dstopitem.dstopitemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dstopitem.dstopitemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dstranh">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dstranh.transhDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dstranh.transhRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dstranh.transhRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsbayarhutang">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsbayarhutang.dsbayarhutangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsbayarhutang.dsbayarhutangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsbayarhutang.dsbayarhutangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsmutasikeluar">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsmutasikeluar.dsmutasikeluarDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsmutasikeluar.dsmutasikeluarRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsmutasikeluar.dsmutasikeluarRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsmutasiMasuk">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsmutasiMasuk.dsmutasiMasukDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsmutasiMasuk.dsmutasiMasukRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsmutasiMasuk.dsmutasiMasukRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspenjualan">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspenjualan.DspenjualanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspenjualan.DspenjualanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspenjualan.DspenjualanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspiutang">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspiutang.dspiutangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspiutang.dspiutangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspiutang.dspiutangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dspiutangsum">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dspiutangsum.tpiutangsumDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dspiutangsum.tpiutangsumRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dspiutangsum.tpiutangsumRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsgantigudang">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsgantigudang.dsgantigudangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsgantigudang.dsgantigudangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsgantigudang.dsgantigudangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsvoucher">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsvoucher.dsvoucherDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsvoucher.dsvoucherRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsvoucher.dsvoucherRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dswo">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dswo.dswoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dswo.dswoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dswo.dswoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.PrintRibbonControllerResources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ClosePreview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ClosePreviewLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_Customize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_CustomizeLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_Document">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_DocumentMap">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_DocumentMapLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_EditPageHF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_EditPageHFLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportCsv">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportCsvLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportFile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportFileLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportGraphic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportGraphicLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportHtm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportHtmLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportMht">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportMhtLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportPdf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportPdfLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportRtf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportRtfLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportTxt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportTxtLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportXls">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsx">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsxLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_FillBackground">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_FillBackgroundLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_Find">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_FindLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_HandTool">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_Magnifier">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_MultiplePages">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_MultiplePagesLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_Open">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_OpenLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PageMargins">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsModerate">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsNarrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsNormal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsWide">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientationLandscape">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientationLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientationPortrait">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PageSetupDialog">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_A3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_A4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_A5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_A6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_Executive">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_Legal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_Letter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_Tabloid">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PaperSize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PaperSizeLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_Parameters">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ParametersLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_Pointer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_Print">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PrintDirect">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PrintDirectLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PrintLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PrintSetup">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_PrintSetupLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_Save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SaveLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_Scale">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ScaleLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendCsv">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendCsvLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendFile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendFileLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendGraphic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendGraphicLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendMht">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendMhtLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendPdf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendPdfLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendRtf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendRtfLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendTxt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendTxtLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendXls">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsx">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsxLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ShowFirstPage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ShowFirstPageLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ShowLastPage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ShowLastPageLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ShowNextPage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ShowNextPageLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ShowPrevPage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ShowPrevPageLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_Watermark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_WatermarkLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_Zoom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ZoomIn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ZoomInLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ZoomLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ZoomOut">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.PrintRibbonControllerResources.RibbonPrintPreview_ZoomOutLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:inventory.dsinvoice">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsinvoice.invoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoice.remarkDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoice.diskonDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoice.invoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoice.remarkRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoice.diskonRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoice.invoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsinvoice.remarkRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsinvoice.diskonRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsinvoicepo">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicepo.dsinvoicepoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicepo.dsinvoicepoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsinvoicepo.dsinvoicepoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.dsstok">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:inventory.dsstok.dsstokDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:inventory.dsstok.dsstokRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:inventory.dsstok.dsstokRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:inventory.XRDesignRibbonControllerResources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_AlignBottom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_AlignHorizontalCenters">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_AlignLeft">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_AlignRight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_AlignToGrid">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_AlignTop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_AlignVerticalCenters">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_BackColor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_BringToFront">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_CenterHorizontally">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_CenterVertically">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_Copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_CopyLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_Cut">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_CutLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_Edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_Exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_ExitLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_Font">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_FontBold">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_FontItalic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_FontUnderline">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_ForeColor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_HorizSpaceConcatenate">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_HorizSpaceDecrease">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_HorizSpaceIncrease">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_HorizSpaceMakeEqual">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlBackward">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlBackwardLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlFind">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlFindLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlForward">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlForwardLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlHome">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlHomeLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlRefresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlRefreshLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlStop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlStopLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_JustifyCenter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_JustifyJustify">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_JustifyLeft">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_JustifyRight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_NewReport">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_NewReportLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_NewReportWizard">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_NewReportWizardLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_OpenFile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_OpenFileLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_Paste">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_PasteLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_Redo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_RedoLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_Report">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_SaveAll">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_SaveAllLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_SaveFile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_SaveFileAs">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_SaveFileAsLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_SaveFileLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_Scripts">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_ScriptsLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_SendToBack">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_SizeToControl">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_SizeToControlHeight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_SizeToControlWidth">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_SizeToGrid">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_Undo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_UndoLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_VertSpaceConcatenate">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_VertSpaceDecrease">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_VertSpaceIncrease">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_VertSpaceMakeEqual">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_Windows">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_WindowsLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_Zoom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_ZoomIn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_ZoomInLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_ZoomLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_ZoomOut">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:inventory.XRDesignRibbonControllerResources.RibbonUserDesigner_ZoomOutLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
