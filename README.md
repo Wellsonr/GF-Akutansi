@@ -15,7 +15,10 @@ Before using the application, set up the database:
   - Access the MySQL database file inside the `Requirements` folder.
 - **Restore the Database**:
   - Import the MySQL file into your DBMS to restore the database.
-
+- **Set Up Database**:
+  - Choose the database that u just restore: 'set database ur_db_name; '
+  - Set Allowed Package in the database using query: 'SET GLOBAL max_allowed_packet=16777216; '
+ 
 ### 3. Application Setup
 Configure the application to ensure it can connect to your database:
 
