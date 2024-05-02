@@ -141,16 +141,22 @@ CREATE TABLE `tblasset` (
   `kodebrand` varchar(100) NOT NULL DEFAULT '',
   `isterjual` tinyint(1) NOT NULL DEFAULT '0',
   `ismm` tinyint(1) NOT NULL DEFAULT '0',
+  `isam` tinyint(1) NOT NULL DEFAULT '0',
   `notransmm` varchar(125) NOT NULL DEFAULT '',
   `notransmk` varchar(125) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tblasset`
 --
 
 /*!40000 ALTER TABLE `tblasset` DISABLE KEYS */;
+INSERT INTO `tblasset` (`id`,`kodemesin`,`kodemesin2`,`nokodeclb`,`namamesin`,`kodesupplier`,`rak`,`tanggal`,`catatan`,`gudang`,`kategori`,`jenis`,`kodebarcode`,`noseri`,`harga`,`sewatahun`,`sewabulan`,`sewahari`,`sewajam`,`status`,`remarkcancel`,`userreq`,`jamreq`,`userapr`,`jamapr`,`userrec`,`jamrec`,`userpost`,`jampost`,`userupdpost`,`jamupdpost`,`kodebrand`,`isterjual`,`ismm`,`isam`,`notransmm`,`notransmk`) VALUES 
+ (3,'ENG00001','ASS','00001','Asset sewa','','','1111-11-11 00:00:00','','','','','ENG00001','',0,0,0,0,0,'23','','JACKY','2024-04-30 13:39:51','JACKY','2024-04-30 13:41:23','','1111-11-11 00:00:00','','1111-11-11 00:00:00','','1111-11-11 00:00:00','',0,0,1,'',''),
+ (19,'ENG00003','CLB-A','00002','Asset Receive','','','1111-11-11 00:00:00','','','GRP0001','','ENG00003','',0,544811110,54884515,54884515,854894,'23','','JACKY','2024-04-30 14:02:21','','1111-11-11 00:00:00','','1111-11-11 00:00:00','','1111-11-11 00:00:00','','1111-11-11 00:00:00','BND0001',0,0,1,'',''),
+ (20,'ENG00004','CLB-A','00003','Asset Receive','','','1111-11-11 00:00:00','','','GRP0001','','ENG00004','',0,544811110,54884515,54884515,854894,'23','','JACKY','2024-04-30 14:02:21','','1111-11-11 00:00:00','','1111-11-11 00:00:00','','1111-11-11 00:00:00','','1111-11-11 00:00:00','BND0001',0,0,1,'',''),
+ (21,'ENG00002','CLB-A','00001','Asset Receive','','','1111-11-11 00:00:00','','','GRP0001','','ENG00002','',0,544811110,54884515,54884515,854894,'23','','JACKY','2024-04-30 14:02:21','','1111-11-11 00:00:00','','1111-11-11 00:00:00','','1111-11-11 00:00:00','','1111-11-11 00:00:00','BND0001',0,0,1,'','');
 /*!40000 ALTER TABLE `tblasset` ENABLE KEYS */;
 
 
@@ -248,10 +254,6 @@ CREATE TABLE `tblassetsementara` (
   `kodegudang` varchar(50) NOT NULL DEFAULT '',
   `harga` double DEFAULT '0',
   `discount` double DEFAULT '0',
-  `discpers` double DEFAULT '0',
-  `tax` double DEFAULT '0',
-  `taxpers` double DEFAULT '0',
-  `expense` double DEFAULT '0',
   `total` double DEFAULT '0',
   `catatan` text NOT NULL,
   `remarkedit` text NOT NULL,
@@ -267,14 +269,17 @@ CREATE TABLE `tblassetsementara` (
   `jamcheck` datetime NOT NULL DEFAULT '1111-11-11 00:00:00',
   `userappr` varchar(25) NOT NULL DEFAULT '',
   `jamappr` datetime NOT NULL DEFAULT '1111-11-11 00:00:00',
+  `discpers` double DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tblassetsementara`
 --
 
 /*!40000 ALTER TABLE `tblassetsementara` DISABLE KEYS */;
+INSERT INTO `tblassetsementara` (`id`,`notrans`,`tanggal`,`kodevendor`,`kodegudang`,`harga`,`discount`,`total`,`catatan`,`remarkedit`,`remarkcancel`,`remarkreject`,`iscredit`,`status`,`userin`,`jamin`,`userupt`,`jamupt`,`usercheck`,`jamcheck`,`userappr`,`jamappr`,`discpers`) VALUES 
+ (1,'ASM24040001','2024-04-30 14:02:17','VND0001','GD0001',0,0,0,'','','','',0,'23','JACKY','2024-04-30 14:02:17','JACKY','2024-04-30 14:02:17','JACKY','2024-04-30 14:02:20','JACKY','2024-04-30 14:02:21',0);
 /*!40000 ALTER TABLE `tblassetsementara` ENABLE KEYS */;
 
 
@@ -292,21 +297,29 @@ CREATE TABLE `tblassetsementarad` (
   `period` double DEFAULT '0',
   `jatuhtempo` datetime NOT NULL DEFAULT '1111-11-11 00:00:00',
   `qty` double DEFAULT '0',
-  `qtyori` double DEFAULT '0',
   `harga` double DEFAULT '0',
   `discount` double DEFAULT '0',
   `discpers` double DEFAULT '0',
   `total` double DEFAULT '0',
   `catatanitem` text NOT NULL,
   `isdetail` tinyint(1) NOT NULL DEFAULT '0',
+  `isfinish` tinyint(1) NOT NULL DEFAULT '0',
+  `finishket` text NOT NULL,
+  `jamfinish` datetime NOT NULL DEFAULT '1111-11-11 00:00:00',
+  `userfinish` varchar(155) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tblassetsementarad`
 --
 
 /*!40000 ALTER TABLE `tblassetsementarad` DISABLE KEYS */;
+INSERT INTO `tblassetsementarad` (`id`,`notrans`,`kodemesin`,`lokasi`,`satuan`,`period`,`jatuhtempo`,`qty`,`harga`,`discount`,`discpers`,`total`,`catatanitem`,`isdetail`,`isfinish`,`finishket`,`jamfinish`,`userfinish`) VALUES 
+ (9,'ASM24040001','ENG00002','Gudang A','Month',1,'2024-05-30 14:02:12',1,0,0,0,0,'',0,0,'','1111-11-11 00:00:00',''),
+ (10,'ASM24040001','ENG00002','','Month',1,'2024-05-30 14:02:12',1,0,0,0,0,'',1,0,'','1111-11-11 00:00:00',''),
+ (11,'ASM24040001','ENG00003','','Month',1,'2024-05-30 14:02:12',1,0,0,0,0,'',1,0,'','1111-11-11 00:00:00',''),
+ (12,'ASM24040001','ENG00004','','Month',1,'2024-05-30 14:02:12',1,0,0,0,0,'',1,0,'','1111-11-11 00:00:00','');
 /*!40000 ALTER TABLE `tblassetsementarad` ENABLE KEYS */;
 
 
@@ -387,6 +400,50 @@ CREATE TABLE `tblbarang` (
 
 /*!40000 ALTER TABLE `tblbarang` DISABLE KEYS */;
 /*!40000 ALTER TABLE `tblbarang` ENABLE KEYS */;
+
+
+--
+-- Definition of table `tblbayarsewa`
+--
+
+DROP TABLE IF EXISTS `tblbayarsewa`;
+CREATE TABLE `tblbayarsewa` (
+  `id` int(50) NOT NULL AUTO_INCREMENT,
+  `notrans` varchar(155) NOT NULL DEFAULT '',
+  `notransasm` varchar(125) NOT NULL DEFAULT '',
+  `notransinv` varchar(155) NOT NULL DEFAULT '',
+  `nobukti` varchar(255) NOT NULL DEFAULT '',
+  `kodevendor` varchar(125) NOT NULL DEFAULT '',
+  `kodemesin` varchar(125) NOT NULL DEFAULT '',
+  `namamesin` varchar(125) NOT NULL DEFAULT '',
+  `tanggal` datetime NOT NULL DEFAULT '1111-11-11 00:00:00',
+  `period` double DEFAULT '0',
+  `satuan` varchar(125) NOT NULL DEFAULT '',
+  `payment` varchar(100) NOT NULL DEFAULT '',
+  `amount` double DEFAULT '0',
+  `discount` double DEFAULT '0',
+  `total` double DEFAULT '0',
+  `status` double DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tblbayarsewa`
+--
+
+/*!40000 ALTER TABLE `tblbayarsewa` DISABLE KEYS */;
+INSERT INTO `tblbayarsewa` (`id`,`notrans`,`notransasm`,`notransinv`,`nobukti`,`kodevendor`,`kodemesin`,`namamesin`,`tanggal`,`period`,`satuan`,`payment`,`amount`,`discount`,`total`,`status`) VALUES 
+ (1,'BSM24040001','ASM24040001','ASM24040001 - 1','KWIN01','VND0001','ENG00004','Data Kosongan A','2024-04-26 10:00:33',1,'Month','Payment Kas Kecil',5000000,200000,4800000,5),
+ (2,'BSM24040001','ASM24040001','ASM24040001 - 2','KWIN01','VND0001','ENG00004','Data Kosongan A','2024-04-26 10:00:33',2,'Month','Payment Kas Kecil',5000000,200000,4800000,5),
+ (3,'BSM24040003','ASM24040001','ASM24040001 - 3','Kwin02','VND0001','ENG00004','Data Kosongan A','2024-04-26 10:02:00',3,'Month','Payment Kas Kecil',5000000,200000,4800000,5),
+ (4,'BSM24040003','ASM24040001','ASM24040001 - 4','Kwin02','VND0001','ENG00004','Data Kosongan A','2024-04-26 10:02:00',4,'Month','Payment Kas Kecil',5000000,200000,4800000,5),
+ (6,'BSM24040005','ASM24040001','ASM24040001 - 1','','VND0001','ENG00005','Data Kosongan A','2024-04-26 10:47:47',1,'Month','Payment Kas Kecil',2500000,100000,2400000,5),
+ (7,'BSM24040006','ASM24040001','ASM24040001 - 2','BAYAR SEMUA ','VND0001','ENG00005','Data Kosongan A','2024-04-26 11:17:01',2,'Month','Payment Kas Kecil',12500000,500000,12000000,5),
+ (8,'BSM24040006','ASM24040001','ASM24040001 - 3','BAYAR SEMUA ','VND0001','ENG00005','Data Kosongan A','2024-04-26 11:17:01',3,'Month','Payment Kas Kecil',12500000,500000,12000000,5),
+ (9,'BSM24040006','ASM24040001','ASM24040001 - 4','BAYAR SEMUA ','VND0001','ENG00005','Data Kosongan A','2024-04-26 11:17:01',4,'Month','Payment Kas Kecil',12500000,500000,12000000,5),
+ (10,'BSM24040006','ASM24040001','ASM24040001 - 5','BAYAR SEMUA ','VND0001','ENG00005','Data Kosongan A','2024-04-26 11:17:01',5,'Month','Payment Kas Kecil',12500000,500000,12000000,5),
+ (11,'BSM24040006','ASM24040001','ASM24040001 - 6','BAYAR SEMUA ','VND0001','ENG00005','Data Kosongan A','2024-04-26 11:17:01',6,'Month','Payment Kas Kecil',12500000,500000,12000000,5);
+/*!40000 ALTER TABLE `tblbayarsewa` ENABLE KEYS */;
 
 
 --
@@ -1172,6 +1229,9 @@ CREATE TABLE `tbldomaintenance` (
   `jamin` datetime NOT NULL DEFAULT '1111-11-11 00:00:00',
   `status` varchar(50) NOT NULL DEFAULT '',
   `jammt` datetime NOT NULL DEFAULT '1111-11-11 00:00:00',
+  `rejectremark` text NOT NULL,
+  `userapprove` varchar(50) NOT NULL DEFAULT '',
+  `jamapprove` datetime NOT NULL DEFAULT '1111-11-11 00:00:00',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -1358,7 +1418,7 @@ INSERT INTO `tblgridlayout` (`id`,`nama`,`textXML`,`userin`,`jamin`,`userupt`,`j
  (2,'Asset','<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfColumn xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <Column>\r\n    <colName>colimg</colName>\r\n    <colVisibleIndex>0</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colnama</colName>\r\n    <colVisibleIndex>1</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n</ArrayOfColumn>','JACKY','2023-12-14 20:20:46','JACKY','2023-12-14 20:20:46',5),
  (3,'Rental - List Barang','<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfColumn xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <Column>\r\n    <colName>colchk</colName>\r\n    <colVisibleIndex>0</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colid</colName>\r\n    <colVisibleIndex>-1</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colkodebarang</colName>\r\n    <colVisibleIndex>1</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colkodebarang2</colName>\r\n    <colVisibleIndex>2</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colnamabarang</colName>\r\n    <colVisibleIndex>3</colVisibleIndex>\r\n    <colWidth>230</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colkodevendor</colName>\r\n    <colVisibleIndex>4</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colnamavendor</colName>\r\n    <colVisibleIndex>5</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colkodegroup</colName>\r\n    <colVisibleIndex>6</colVisibleIndex>\r\n    <colWidth>130</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colnamagroup</colName>\r\n    <colVisibleIndex>7</colVisibleIndex>\r\n    <colWidth>130</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colsat1</colName>\r\n    <colVisibleIndex>8</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colsat2</colName>\r\n    <colVisibleIndex>9</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colsat3</colName>\r\n    <colVisibleIndex>10</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colsat4</colName>\r\n    <colVisibleIndex>11</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colsat5</colName>\r\n    <colVisibleIndex>12</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colisi2</colName>\r\n    <colVisibleIndex>13</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colisi3</colName>\r\n    <colVisibleIndex>14</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colisi4</colName>\r\n    <colVisibleIndex>15</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colisi5</colName>\r\n    <colVisibleIndex>16</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colcatatan</colName>\r\n    <colVisibleIndex>17</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colkubikasi</colName>\r\n    <colVisibleIndex>18</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colberat</colName>\r\n    <colVisibleIndex>19</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colstatus</colName>\r\n    <colVisibleIndex>20</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coluserin</colName>\r\n    <colVisibleIndex>21</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coljamin</colName>\r\n    <colVisibleIndex>22</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coluserupt</colName>\r\n    <colVisibleIndex>23</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coljamupt</colName>\r\n    <colVisibleIndex>24</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n</ArrayOfColumn>','JACKY','2023-12-14 20:32:54','JACKY','2023-12-14 20:32:54',5),
  (4,'frmassetadd','<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfColumn xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <Column>\r\n    <colName>colimg</colName>\r\n    <colVisibleIndex>0</colVisibleIndex>\r\n    <colWidth>135</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coldesc</colName>\r\n    <colVisibleIndex>1</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n</ArrayOfColumn>','JACKY','2024-01-14 02:29:54','JACKY','2024-01-15 13:05:29',5),
- (5,'frmassetadd-GridView2','<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfColumn xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <Column>\r\n    <colName>colimg</colName>\r\n    <colVisibleIndex>0</colVisibleIndex>\r\n    <colWidth>135</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coldesc</colName>\r\n    <colVisibleIndex>1</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n</ArrayOfColumn>','JACKY','2024-02-16 22:37:50','JACKY','2024-04-16 09:24:27',5),
+ (5,'frmassetadd-GridView2','<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfColumn xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <Column>\r\n    <colName>colimg</colName>\r\n    <colVisibleIndex>0</colVisibleIndex>\r\n    <colWidth>135</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coldesc</colName>\r\n    <colVisibleIndex>1</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n</ArrayOfColumn>','JACKY','2024-02-16 22:37:50','JACKY','2024-04-30 13:42:50',5),
  (6,'frmlistasset-GridView1','<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfColumn xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <Column>\r\n    <colName>colchk</colName>\r\n    <colVisibleIndex>0</colVisibleIndex>\r\n    <colWidth>34</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colkodemesin</colName>\r\n    <colVisibleIndex>1</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colkodemesin2</colName>\r\n    <colVisibleIndex>2</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colnamamesin</colName>\r\n    <colVisibleIndex>3</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colsewapertahun</colName>\r\n    <colVisibleIndex>4</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colsewaperbulan</colName>\r\n    <colVisibleIndex>5</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colsewaperhari</colName>\r\n    <colVisibleIndex>6</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colsewaperjam</colName>\r\n    <colVisibleIndex>7</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colkodegroup</colName>\r\n    <colVisibleIndex>8</colVisibleIndex>\r\n    <colWidth>130</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colnamagroup</colName>\r\n    <colVisibleIndex>9</colVisibleIndex>\r\n    <colWidth>130</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colcatatan</colName>\r\n    <colVisibleIndex>10</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>collokasi</colName>\r\n    <colVisibleIndex>11</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coluserreq</colName>\r\n    <colVisibleIndex>12</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coljamreq</colName>\r\n    <colVisibleIndex>13</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n</ArrayOfColumn>','JACKY','2024-02-16 22:59:33','JACKY','2024-02-16 22:59:33',5),
  (7,'frmrentalquotationadd-GridView1','<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfColumn xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <Column>\r\n    <colName>colkodemesin</colName>\r\n    <colVisibleIndex>0</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colkodemesin2</colName>\r\n    <colVisibleIndex>1</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colnamamesin</colName>\r\n    <colVisibleIndex>2</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coltanggalakhir</colName>\r\n    <colVisibleIndex>3</colVisibleIndex>\r\n    <colWidth>110</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colharga</colName>\r\n    <colVisibleIndex>4</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colDiscsub</colName>\r\n    <colVisibleIndex>5</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colsubtotal</colName>\r\n    <colVisibleIndex>9</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coldiscount</colName>\r\n    <colVisibleIndex>10</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coldiscpers</colName>\r\n    <colVisibleIndex>6</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colperiod</colName>\r\n    <colVisibleIndex>7</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colunit</colName>\r\n    <colVisibleIndex>8</colVisibleIndex>\r\n    <colWidth>50</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coltotal</colName>\r\n    <colVisibleIndex>11</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n</ArrayOfColumn>','JACKY','2024-02-17 00:02:26','JACKY','2024-02-17 00:02:26',5),
  (8,'frmrentalsoadd-GridView1','<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<ArrayOfColumn xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <Column>\r\n    <colName>colkodemesin</colName>\r\n    <colVisibleIndex>0</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colkodemesin2</colName>\r\n    <colVisibleIndex>1</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colnamamesin</colName>\r\n    <colVisibleIndex>2</colVisibleIndex>\r\n    <colWidth>100</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coltanggalakhir</colName>\r\n    <colVisibleIndex>3</colVisibleIndex>\r\n    <colWidth>110</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>GridColumn1</colName>\r\n    <colVisibleIndex>4</colVisibleIndex>\r\n    <colWidth>130</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colharga</colName>\r\n    <colVisibleIndex>5</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coldiscperperiode</colName>\r\n    <colVisibleIndex>6</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coldiscount</colName>\r\n    <colVisibleIndex>11</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coldiscpers</colName>\r\n    <colVisibleIndex>7</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colsubtotal</colName>\r\n    <colVisibleIndex>10</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colperiod</colName>\r\n    <colVisibleIndex>8</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>colunit</colName>\r\n    <colVisibleIndex>9</colVisibleIndex>\r\n    <colWidth>50</colWidth>\r\n  </Column>\r\n  <Column>\r\n    <colName>coltotal</colName>\r\n    <colVisibleIndex>12</colVisibleIndex>\r\n    <colWidth>120</colWidth>\r\n  </Column>\r\n</ArrayOfColumn>','JACKY','2024-02-17 00:13:38','JACKY','2024-02-17 00:13:38',5),
@@ -1520,7 +1580,7 @@ CREATE TABLE `tblhakuser` (
   `username` varchar(255) NOT NULL DEFAULT '',
   `akses` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tblhakuser`
@@ -1535,11 +1595,14 @@ INSERT INTO `tblhakuser` (`id`,`kodehak`,`username`,`akses`) VALUES
  (5,'UserOffice','jacky',1),
  (6,'UserOffice','admin',1),
  (7,'UserOffice','Operator',0),
- (8,'UserOffice','Krywn1',1),
+ (8,'UserOffice','Krywn1',0),
  (9,'KodeHakReceive','jacky',1),
  (10,'KodeHakReceive','admin',1),
  (11,'KodeHakReceive','Operator',0),
- (12,'KodeHakReceive','Krywn1',0);
+ (12,'KodeHakReceive','Krywn1',0),
+ (13,'SetHak','Wellson',0),
+ (14,'UserOffice','Wellson',0),
+ (15,'KodeHakReceive','Wellson',0);
 /*!40000 ALTER TABLE `tblhakuser` ENABLE KEYS */;
 
 
@@ -1823,7 +1886,7 @@ CREATE TABLE `tbljenistransaksi` (
   `pakaibulan` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `tbljenistransaksi` (`kodetransaksi`)
-) ENGINE=InnoDB AUTO_INCREMENT=115 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=116 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbljenistransaksi`
@@ -1900,7 +1963,8 @@ INSERT INTO `tbljenistransaksi` (`id`,`kodetransaksi`,`nama`,`kodedepan`,`pakait
  (111,'6001','Rental Mutasi Masuk','RMM',1,1),
  (112,'6002','Rental Mutasi Keluar','RMK',1,1),
  (113,'5002','Asset Sementara','ASM',1,1),
- (114,'9600','Rental Asset Invoice','RAI',1,1);
+ (114,'9600','Rental Asset Invoice','RAI',1,1),
+ (115,'5003','Rental Bayar Sewa','RBS',1,1);
 /*!40000 ALTER TABLE `tbljenistransaksi` ENABLE KEYS */;
 
 
@@ -2459,6 +2523,7 @@ INSERT INTO `tbllisthak` (`id`,`kodehak`,`keterangan`) VALUES
 DROP TABLE IF EXISTS `tbllistpayment`;
 CREATE TABLE `tbllistpayment` (
   `id` int(50) NOT NULL AUTO_INCREMENT,
+  `notrans` varchar(255) NOT NULL DEFAULT '',
   `payment` varchar(100) NOT NULL DEFAULT '',
   `debit` varchar(100) NOT NULL DEFAULT '',
   `kredit` varchar(100) NOT NULL DEFAULT '',
@@ -2542,6 +2607,7 @@ CREATE TABLE `tblmaintenancejasa` (
   `harga` double DEFAULT '0',
   `total` double DEFAULT '0',
   `iscredit` tinyint(1) NOT NULL DEFAULT '0',
+  `idpr` int(15) NOT NULL DEFAULT '0',
   `payment` varchar(100) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -2787,7 +2853,7 @@ INSERT INTO `tblmultilinkper` (`id`,`ccy`,`kodepr`,`idpr`,`userin`,`jamin`,`user
  (145,'IDR','SP145',172,'JACKY','2024-02-28 17:23:14','JACKY','2024-02-28 17:23:14'),
  (146,'IDR','SP146',170,'JACKY','2024-02-28 17:23:14','JACKY','2024-02-28 17:23:14'),
  (147,'IDR','SP147',171,'JACKY','2024-02-28 17:23:14','JACKY','2024-02-28 17:23:14'),
- (148,'IDR','SP150',155,'JACKY','2024-02-29 13:00:45','JACKY','2024-02-29 13:00:45'),
+ (148,'IDR','SP150',169,'JACKY','2024-02-29 13:00:45','JACKY','2024-02-29 13:00:45'),
  (149,'IDR','SP151',169,'JACKY','2024-03-12 12:51:37','JACKY','2024-03-12 12:51:37'),
  (150,'IDR','SP152',169,'JACKY','2024-03-12 12:51:37','JACKY','2024-03-12 12:51:37'),
  (151,'IDR','SP153',174,'JACKY','2024-03-12 12:51:37','JACKY','2024-03-12 12:51:37'),
@@ -2795,13 +2861,13 @@ INSERT INTO `tblmultilinkper` (`id`,`ccy`,`kodepr`,`idpr`,`userin`,`jamin`,`user
  (153,'IDR','SP155',174,'JACKY','2024-03-12 12:51:37','JACKY','2024-03-12 12:51:37'),
  (154,'IDR','SP156',0,'JACKY','2024-04-20 13:19:43','JACKY','2024-04-20 13:19:43'),
  (155,'IDR','SP148',166,'JACKY','2024-04-22 10:15:52','JACKY','2024-04-22 10:15:52'),
- (156,'IDR','SP149',0,'JACKY','2024-04-22 10:15:52','JACKY','2024-04-22 10:15:52'),
+ (156,'IDR','SP149',113,'JACKY','2024-04-22 10:15:52','JACKY','2024-04-22 10:15:52'),
  (157,'IDR','SP157',0,'JACKY','2024-04-22 14:03:33','JACKY','2024-04-22 14:03:33'),
  (158,'IDR','SP158',0,'JACKY','2024-04-22 14:03:33','JACKY','2024-04-22 14:03:33'),
  (159,'IDR','SP159',0,'JACKY','2024-04-22 14:03:33','JACKY','2024-04-22 14:03:33'),
  (160,'IDR','SP160',0,'JACKY','2024-04-22 14:03:33','JACKY','2024-04-22 14:03:33'),
  (161,'IDR','SP161',0,'JACKY','2024-04-22 14:03:33','JACKY','2024-04-22 14:03:33'),
- (162,'IDR','SP162',0,'JACKY','2024-04-23 08:51:59','JACKY','2024-04-23 08:51:59');
+ (162,'IDR','SP162',113,'JACKY','2024-04-23 08:51:59','JACKY','2024-04-23 08:51:59');
 /*!40000 ALTER TABLE `tblmultilinkper` ENABLE KEYS */;
 
 
@@ -3551,6 +3617,41 @@ CREATE TABLE `tblpenjualand` (
 
 
 --
+-- Definition of table `tblperpanjangsewa`
+--
+
+DROP TABLE IF EXISTS `tblperpanjangsewa`;
+CREATE TABLE `tblperpanjangsewa` (
+  `id` int(50) NOT NULL AUTO_INCREMENT,
+  `notrans` varchar(125) NOT NULL DEFAULT '',
+  `notransasm` varchar(125) NOT NULL DEFAULT '',
+  `kodemesin` varchar(125) NOT NULL DEFAULT '',
+  `kodevendor` varchar(125) NOT NULL DEFAULT '',
+  `tanggal` datetime NOT NULL DEFAULT '1111-11-11 00:00:00',
+  `period` double DEFAULT '0',
+  `satuan` varchar(125) NOT NULL DEFAULT '',
+  `hargaawal` double DEFAULT '0',
+  `diskon` double DEFAULT '0',
+  `harga` double DEFAULT '0',
+  `userin` varchar(125) NOT NULL DEFAULT '',
+  `userupt` varchar(125) NOT NULL DEFAULT '',
+  `jamin` datetime NOT NULL DEFAULT '1111-11-11 00:00:00',
+  `jamupt` datetime NOT NULL DEFAULT '1111-11-11 00:00:00',
+  `status` varchar(50) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tblperpanjangsewa`
+--
+
+/*!40000 ALTER TABLE `tblperpanjangsewa` DISABLE KEYS */;
+INSERT INTO `tblperpanjangsewa` (`id`,`notrans`,`notransasm`,`kodemesin`,`kodevendor`,`tanggal`,`period`,`satuan`,`hargaawal`,`diskon`,`harga`,`userin`,`userupt`,`jamin`,`jamupt`,`status`) VALUES 
+ (1,'PPS24040001','ASM24040001','ENG00002','','2024-04-26 16:10:20',3,'Month',3000000,200000,2800000,'JACKY','JACKY','2024-04-26 16:10:42','2024-04-26 16:10:42','5');
+/*!40000 ALTER TABLE `tblperpanjangsewa` ENABLE KEYS */;
+
+
+--
 -- Definition of table `tblpindahgudang`
 --
 
@@ -3749,6 +3850,37 @@ CREATE TABLE `tblpostonline` (
 
 /*!40000 ALTER TABLE `tblpostonline` DISABLE KEYS */;
 /*!40000 ALTER TABLE `tblpostonline` ENABLE KEYS */;
+
+
+--
+-- Definition of table `tblpotongsewa`
+--
+
+DROP TABLE IF EXISTS `tblpotongsewa`;
+CREATE TABLE `tblpotongsewa` (
+  `id` int(50) NOT NULL AUTO_INCREMENT,
+  `notrans` varchar(125) NOT NULL DEFAULT '',
+  `notransasm` varchar(125) NOT NULL DEFAULT '',
+  `kodemesin` varchar(125) NOT NULL DEFAULT '',
+  `kodevendor` varchar(125) NOT NULL DEFAULT '',
+  `tanggal` datetime NOT NULL DEFAULT '1111-11-11 00:00:00',
+  `period` double DEFAULT '0',
+  `keterangan` text NOT NULL,
+  `satuan` varchar(125) NOT NULL DEFAULT '',
+  `userin` varchar(125) NOT NULL DEFAULT '',
+  `userupt` varchar(125) NOT NULL DEFAULT '',
+  `jamin` datetime NOT NULL DEFAULT '1111-11-11 00:00:00',
+  `jamupt` datetime NOT NULL DEFAULT '1111-11-11 00:00:00',
+  `status` varchar(55) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tblpotongsewa`
+--
+
+/*!40000 ALTER TABLE `tblpotongsewa` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tblpotongsewa` ENABLE KEYS */;
 
 
 --
@@ -4496,6 +4628,8 @@ CREATE TABLE `tblrentalreceive` (
   `kodevendor` varchar(100) NOT NULL DEFAULT '',
   `notranspo` varchar(150) NOT NULL DEFAULT '',
   `harga` double DEFAULT '0',
+  `discount` double DEFAULT '0',
+  `tax` double DEFAULT '0',
   `total` double DEFAULT '0',
   `catatan` text NOT NULL,
   `remarkcancel` text NOT NULL,
@@ -4941,8 +5075,8 @@ CREATE TABLE `tblstatusrental` (
 
 /*!40000 ALTER TABLE `tblstatusrental` DISABLE KEYS */;
 INSERT INTO `tblstatusrental` (`id`,`kodemesin`,`status`,`userin`,`jamin`,`userupt`,`jamupt`) VALUES 
- (1,'ENG00001','23','JACKY','2024-04-16 08:56:23','JACKY','2024-04-16 08:56:37'),
- (2,'ENG00002','23','JACKY','2024-04-16 09:03:56','JACKY','2024-04-16 09:03:59'),
+ (1,'ENG00001','23','JACKY','2024-04-16 08:56:23','JACKY','2024-04-30 13:41:23'),
+ (2,'ENG00002','23','JACKY','2024-04-16 09:03:56','JACKY','2024-04-30 13:41:10'),
  (3,'ENG00003','22','JACKY','2024-04-16 09:21:26','JACKY','2024-04-16 09:21:26');
 /*!40000 ALTER TABLE `tblstatusrental` ENABLE KEYS */;
 
@@ -5045,7 +5179,7 @@ CREATE TABLE `tblsync` (
   `jamin` datetime NOT NULL DEFAULT '1111-11-11 00:00:00',
   `query` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=508 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=531 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tblsync`
@@ -5559,7 +5693,30 @@ INSERT INTO `tblsync` (`id`,`urutan`,`jamin`,`query`) VALUES
  (504,503,'2024-04-23 10:30:50',' ALTER TABLE tblrentalinvoice ADD COLUMN isasset tinyint(1) not null default 0 after satuan '),
  (505,504,'2024-04-23 10:30:50','INSERT INTO tbllinkpr(id, kode, linkper, jenistrans, iskredit, subgroup, idpr, ccy) VALUES \r\n                        (158, \'SP157\', \'Rental Asset Sementara - Kredit\', \'9600\', 1, \'Asset Sementara\', 1, \'IDR\'),\r\n                        (159, \'SP158\', \'Rental Asset Sementara - Debit\', \'9600\', 1, \'Asset Sementara\', 1, \'IDR\'),\r\n                        (160, \'SP159\', \'Rental Asset Sementara - Discount Per Item\', \'9600\', 1, \'Asset Sementara\', 1, \'IDR\'),\r\n                        (161, \'SP160\', \'Rental Asset Sementara - Discount\', \'9600\', 1, \'Asset Sementara\', 1, \'IDR\'),\r\n                        (162, \'SP161\', \'Rental Asset Sementara - Biaya Tambahan\', \'9600\', 1, \'Delivery Order\', 1, \'IDR\')'),
  (506,505,'2024-04-23 10:30:51',' ALTER TABLE tblrentalreceived ADD COLUMN notransasset varchar(255) not null default \'\' after notrans '),
- (507,506,'2024-04-23 10:30:51','INSERT INTO tbllinkpr(kode, linkper, jenistrans, iskredit, subgroup, idpr, ccy) VALUES \r\n                            (\'SP162\', \'Jasa Maintenance Asset\', \'5501\', 0, \'Lainnya\', 1, \'IDR\');');
+ (507,506,'2024-04-23 10:30:51','INSERT INTO tbllinkpr(kode, linkper, jenistrans, iskredit, subgroup, idpr, ccy) VALUES \r\n                            (\'SP162\', \'Jasa Maintenance Asset\', \'5501\', 0, \'Lainnya\', 1, \'IDR\');'),
+ (508,507,'2024-04-24 08:26:52',' ALTER TABLE tblasset ADD COLUMN isam tinyint(1) not null default 0 after ismm '),
+ (509,508,'2024-04-24 08:26:52',' ALTER TABLE tblrentalreceive ADD COLUMN discount double default 0 after harga '),
+ (510,509,'2024-04-26 16:17:38','ALTER TABLE tblassetsementara\r\n                    DROP Column taxpers ;'),
+ (511,510,'2024-04-26 16:17:38',' ALTER TABLE tblmaintenancejasa ADD COLUMN idpr int(15) not null default 0 after iscredit '),
+ (512,511,'2024-04-26 16:17:38',' ALTER TABLE tblassetsementara ADD COLUMN discpers double default 0'),
+ (513,512,'2024-04-26 16:17:38',' ALTER TABLE tblassetsementara ADD COLUMN taxpers double default 0'),
+ (514,513,'2024-04-26 16:17:38','ALTER TABLE tblassetsementara\r\n                    DROP Column expense ;'),
+ (515,514,'2024-04-26 16:17:39','SELECT table_name\r\n                    FROM information_schema.columns\r\n                    WHERE table_name = \'tblbayarsewa\' \r\n                    and table_schema = \'gf3\'\r\n                    and column_name = \'status\''),
+ (516,515,'2024-04-26 16:17:39','SELECT table_name\r\n                    FROM information_schema.columns\r\n                    WHERE table_name = \'tblbayarsewa\' \r\n                    and table_schema = \'gf3\'\r\n                    and column_name = \'satuan\''),
+ (517,516,'2024-04-26 16:17:39','SELECT table_name\r\n                    FROM information_schema.columns\r\n                    WHERE table_name = \'tblbayarsewa\' \r\n                    and table_schema = \'gf3\'\r\n                    and column_name = \'kodevendor\''),
+ (518,517,'2024-04-26 16:17:39','SELECT table_name\r\n                    FROM information_schema.columns\r\n                    WHERE table_name = \'tblbayarsewa\' \r\n                    and table_schema = \'gf3\'\r\n                    and column_name = \'notransinv\''),
+ (519,518,'2024-04-26 16:17:39','insert into tbljenistransaksi(id, kodetransaksi, nama, kodedepan, pakaitahun, pakaibulan) values\r\n                            (\'115\', \'5003\', \'Rental Bayar Sewa\', \'RBS\', 1, 1);'),
+ (520,519,'2024-04-26 16:17:39','SELECT table_name\r\n                    FROM information_schema.columns\r\n                    WHERE table_name = \'tblbayarsewa\' \r\n                    and table_schema = \'gf3\'\r\n                    and column_name = \'notrans\''),
+ (521,520,'2024-04-26 16:17:39',' ALTER TABLE tbllinkpayment ADD COLUMN notrans varchar(255) not null default \'\' after id '),
+ (522,521,'2024-04-26 16:17:39',' ALTER TABLE tbllistpayment ADD COLUMN notrans varchar(255) not null default \'\' after id '),
+ (523,522,'2024-04-26 16:17:39',' ALTER TABLE tbldomaintenance ADD COLUMN rejectremark text not null'),
+ (524,523,'2024-04-30 13:39:14','SELECT table_name\r\n                    FROM information_schema.columns\r\n                    WHERE table_name = \'tblbayarsewa\' \r\n                    and table_schema = \'gf3\'\r\n                    and column_name = \'notransasm\''),
+ (525,524,'2024-04-30 13:39:14','SELECT table_name\r\n                    FROM information_schema.columns\r\n                    WHERE table_name = \'tblperpanjangsewa\' \r\n                    and table_schema = \'gf3\'\r\n                    and column_name = \'status\''),
+ (526,525,'2024-04-30 13:39:14','SELECT table_name\r\n                    FROM information_schema.columns\r\n                    WHERE table_name = \'tblperpanjangsewa\' \r\n                    and table_schema = \'gf3\'\r\n                    and column_name = \'kodemesin\''),
+ (527,526,'2024-04-30 13:39:14',' ALTER TABLE tblperpanjangsewa ADD COLUMN kodevendor varchar(125) not null default \'\' after kodemesin '),
+ (528,527,'2024-04-30 13:39:14','SELECT table_name\r\n                    FROM information_schema.columns\r\n                    WHERE table_name = \'tblpotongsewa\' \r\n                    and table_schema = \'gf3\'\r\n                    and column_name = \'status\''),
+ (529,528,'2024-04-30 13:39:14',' ALTER TABLE tbldomaintenance ADD COLUMN jamapprove datetime not null default \'1111-11-11 00:00:00\''),
+ (530,529,'2024-04-30 13:39:14',' ALTER TABLE tblassetsementarad ADD COLUMN userfinish varchar(155) not null default \'\'');
 /*!40000 ALTER TABLE `tblsync` ENABLE KEYS */;
 
 
@@ -5736,13 +5893,21 @@ CREATE TABLE `tbltranslog` (
   `statusid` int(11) NOT NULL DEFAULT '0',
   `keterangan` varchar(255) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbltranslog`
 --
 
 /*!40000 ALTER TABLE `tbltranslog` DISABLE KEYS */;
+INSERT INTO `tbltranslog` (`id`,`notrans`,`kodedepan`,`tanggal`,`userin`,`jamupt`,`userupt`,`statusid`,`keterangan`) VALUES 
+ (1,'ENG00002','Asset Request','2024-04-30 13:41:00','JACKY','2024-04-30 13:41:00','JACKY',20,''),
+ (2,'ENG00002','Asset Request','2024-04-30 13:41:06','JACKY','2024-04-30 13:41:06','JACKY',1,'Update Asset Status'),
+ (3,'ENG00002','Asset Request','2024-04-30 13:41:08','JACKY','2024-04-30 13:41:08','JACKY',1,'Update Asset Status'),
+ (4,'ENG00002','Asset Request','2024-04-30 13:41:10','JACKY','2024-04-30 13:41:10','JACKY',1,'Update Asset Status'),
+ (5,'ENG00001','Asset Request','2024-04-30 13:41:20','JACKY','2024-04-30 13:41:20','JACKY',1,'Update Asset Status'),
+ (6,'ENG00001','Asset Request','2024-04-30 13:41:21','JACKY','2024-04-30 13:41:21','JACKY',1,'Update Asset Status'),
+ (7,'ENG00001','Asset Request','2024-04-30 13:41:23','JACKY','2024-04-30 13:41:23','JACKY',1,'Update Asset Status');
 /*!40000 ALTER TABLE `tbltranslog` ENABLE KEYS */;
 
 
@@ -5784,7 +5949,7 @@ CREATE TABLE `tbluser` (
   `jatuhtempo` double DEFAULT '0',
   `kodeval` varchar(255) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1 AVG_ROW_LENGTH=910;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1 AVG_ROW_LENGTH=910;
 
 --
 -- Dumping data for table `tbluser`
@@ -5792,10 +5957,11 @@ CREATE TABLE `tbluser` (
 
 /*!40000 ALTER TABLE `tbluser` DISABLE KEYS */;
 INSERT INTO `tbluser` (`id`,`nama`,`katasandi`,`idakses`,`token`,`kode`,`kodekaryawan`,`pemilik`,`pelanggan`,`groupuser`,`hargajual`,`sales`,`chk1`,`chk2`,`chk3`,`crccy`,`lembarjatuhtempo`,`discjatuhtempo`,`discjatuhtempo2`,`lembarjatuhtempo2`,`unvalidated`,`maxcrd`,`status`,`lastlogin`,`userin`,`userupd`,`jamin`,`jamupd`,`jatuhtempo2`,`jatuhtempo`,`kodeval`) VALUES 
- (1,'jacky','123',1,'','USR0001','','','','','','',0,0,0,'',0,0,0,0,0,0,0,'2024-04-23 10:30:57','','','1111-11-11 00:00:00','1111-11-11 00:00:00',0,0,''),
+ (1,'jacky','123',1,'','USR0001','','','','','','',0,0,0,'',0,0,0,0,0,0,0,'2024-05-02 09:34:40','','','1111-11-11 00:00:00','1111-11-11 00:00:00',0,0,''),
  (3,'admin','123',1,'','USR0003','','','','','','',0,0,0,'',0,0,0,0,0,0,0,'1111-11-11 00:00:00','','','1111-11-11 00:00:00','1111-11-11 00:00:00',0,0,''),
  (4,'Operator','123',0,'','USR0004','KYW0001','Operator','PLG020001','','---','',0,0,0,'',0,0,0,0,0,0,5,'2024-03-12 11:13:26','JACKY','JACKY','2024-03-12 10:05:26','2024-04-16 08:40:35',0,0,'operator'),
- (5,'Krywn1','123',0,'','USR00004','KYW0002','Karyawan','PLG020001','','---','',0,0,0,'',0,0,0,0,0,0,5,'2024-04-16 08:54:10','JACKY','JACKY','2024-04-16 08:31:07','2024-04-16 08:42:07',0,0,'karyawan');
+ (5,'Krywn1','123',0,'','USR00004','KYW0002','Karyawan','PLG020001','','---','',0,0,0,'',0,0,0,0,0,0,5,'2024-04-16 08:54:10','JACKY','JACKY','2024-04-16 08:31:07','2024-04-16 08:42:07',0,0,'karyawan'),
+ (6,'Wellson','test123',0,'','USR0005','','JACKY','','','---','',0,0,0,'',0,0,0,0,0,0,5,'2024-05-02 09:37:15','JACKY','','2024-05-02 09:35:38','1111-11-11 00:00:00',0,0,'');
 /*!40000 ALTER TABLE `tbluser` ENABLE KEYS */;
 
 
